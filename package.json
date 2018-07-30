@@ -1,0 +1,19 @@
+{
+  "name": "ApolloServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.0",
+    "graphql": "^0.13.2",
+    "mysql": "^2.16.0"
+  }
+}
